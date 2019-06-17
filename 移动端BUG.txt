@@ -1,0 +1,5 @@
+ios  {
+       1：   input获取焦点时，页面输入框被遮盖，定位的元素位置错乱
+           答：1）webAPI scrollintoview  （e)=>{settimeout()=>{e.target.scrollintoview(true);},200}
+                  2)
+      }

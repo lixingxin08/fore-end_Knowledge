@@ -1,0 +1,19 @@
+  1： 尽量减少HTTP请求  压缩合并JS CSS精灵图   
+  2： 减少DNS查询   
+  3：使用CDN
+  4 避免空SRC 和Href
+  5: 为文件头指定expires（过期时间）或者cache-control头部
+  6 使用Gzip 压缩内容
+  7 把CSS放在顶部  把JS放在底部
+   8 避免使用CSS表达式
+   9 可缓存的AJAX 就请求缓存内容
+   10： 使用GET完成AJAX请求
+   11：减少DOM元素数量
+   12：不要404
+   13：不要 在HTML中缩放图片
+
+Vue中的性能优化
+  14  Vue中路由懒加载
+ 15   v-once的运用  静态文件不会重新渲染
+
+

@@ -1,0 +1,31 @@
+HTML5新特性{
+                       1语义化标签:   {
+	              header  nav section aside article
+	    }
+	        2：增强型表单{
+	              1) input type 新增 ：email  url   color  range   date   number  search
+	               2)  新增表单元素 ： datalist keygen output
+		3)  新增表单属性 :     placehoder   required  min max height width  pattern  aotofocus multiple
+		}
+   	         3: 视频 音频{
+		video  audio
+	         }
+	         4:  canvas{}  与 SVG绘图
+ 	          5: Webstorage {
+	             seesionstorage   localstorage
+	         }
+	          6:  地理定位  geolocaltion：{
+	            navigator.geolocation.getCurrenPosition :   
+	        }
+	       7:  拖放API :{
+		drag  :  dragstart   drag   dragend  dragenter dragover  dragleave  drop
+                        }
+	      8:  Web Worker:{
+		w= new worker("../xx.js")  web worker 是运行在后台的JavaScript 独立与其他脚本  不会影响页面性能
+	      }
+	       9: WebSocket: {
+		是一种在当TCP连接上进行全双工通讯的协议 通过send（）发送数据 onmessage事件接收数据
+		let ws= new WebSoket("http://xxxx")  ws.onopen=()=>{ws.send(发送数据)}   ws.onmessage=(rsp)=>{let data=rsp.data}
+		ws.onclose=()=>{}
+	       }
+                }  nginx服务端性能优化

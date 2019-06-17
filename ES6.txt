@@ -1,0 +1,13 @@
+ 1： let const
+   2：解构赋值
+   3：常用内置对象扩展{
+		  number：isInteger（） isSafeInteger（）
+		  string：模板字符串  repeat（）  includes（） startwith（） endwith()
+		  function: 参数默认值  剩余参数    箭头函数
+		  array：扩展运算符 Array.from()  find() findIndex() Array.of() fill() 幂次方运算符
+		  object： 对象的简洁表达法  Object.is()  Object.assign()
+		}
+   4：新增内置对象  Set    Map
+  5：迭代  For。。。of
+  6: 异步函数处理器 promise 与async/await
+   7: Class

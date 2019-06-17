@@ -1,0 +1,37 @@
+  一： {
+	1：js内置对象：{   String Number  Array    Boolean  Object  Function   Date  Math  RegExg Error  Argument			}
+                 2:JS事件  ：{onabort  onblur  onchange  onclick  ondblclick   onerror  onfocus  onkeydown  onkeyup  onload onmousedown 
+                                      onmousemove onmouseout  onmouseover  onmouseup  onreset  onresize  onselect  onsubmit  onunload}
+
+                  3:Array对象方法：{ concat()  join()  pop()  push()  reverse()  shift()  unshift() slice()  sort()  splice()  tosource()  
+			tostring()  tolocalstring()  valueOf()}
+
+	   4:String对象方法：{concat()  charAt() replace() search()  slice() split() substr() ES6:starwith() endwith() includes()等等}
+	   5:Math对象方法：{abs()   floor()  ceil()  random()  round() 等等}
+   	   6:Date对象方法 ：{Date()  getDate()  getMonth()  getFullYear  }
+	  7: RegExp对象：{ !  g  m   ;    [abc] [^abc] [0-9] [a-z] [A-Z] [A-z] [adgk] [^adgk] }
+
+	}
+ 二：    {
+	  1：js继承的方法：{原型链继承  构造函数继承 实例化继承 组合继承 寄生继承  寄生组合继承 es6extend继承；
+			原型链继承：
+		}
+                              
+
+
+	}
+三：  解决跨域的方法
+ 1、 通过jsonp跨域
+2、 document.domain + iframe跨域
+3、 location.hash + iframe
+4、 window.name + iframe跨域
+5、 postMessage跨域
+6、 跨域资源共享（CORS）
+7、 nginx代理跨域
+8、 nodejs中间件代理跨域
+9、 WebSocket协议跨域
+
+
+
+四：  js阻止事件冒泡   event.stopPropagation() IE: e.cancelbuble=true
+      js阻止默认事件     event.preventdefault()    IE: e.returnValue=true

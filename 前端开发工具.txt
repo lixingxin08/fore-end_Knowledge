@@ -1,0 +1,9 @@
+编译工具：VSCODE
+管理代码工具 GitHub
+调试工具：chrome  vue-devtools
+打包工具：webpack
+前端框架： {
+                   CSS框架：bootstrap mint-UI  Element-UI
+                   JS框架：jQuery   Vue 小程序
+                     }
+
