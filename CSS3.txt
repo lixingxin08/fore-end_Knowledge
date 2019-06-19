@@ -2,15 +2,15 @@ CSS3新特性 ：{
 		1：CSS3选择器{}
 		2:  边框与圆角{}，文本效果
 		3： CSS3背景与渐变
-		4： CSS3 过渡
-		5： CSS3变换
-		6： CSSE动画
+		4： CSS3 过渡 transfrom translate	
+		5： CSS3变换  transition
+		6： CSSE动画  animation animation-name animation-duration animation-timing-function animation-delay
+                    animation-iteration-count
 		7： CSS3 盒子模型 resize:[none,both ,horizonal,vertival , inherit] box-sizing:[content-box,border-box,inherit]; outline:[outline-color, outline-style outline-width outlie-offset]
-		8： 弹性盒子
-		9：媒体查询
+		8;弹性盒子 display;flex, justify-content;center, aline-items;center,flex;flex-diertion flex-wrap
+		9：媒体查询 @media only screen and {min-width:500px} and {max-width:1000px}{xxxxx}
 		}
 Less   :{
 	1:变量：@开头
-	2：混合：.开头		
-
+	2：混合：.开头
 		}

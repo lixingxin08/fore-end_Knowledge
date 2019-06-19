@@ -15,5 +15,10 @@
 Vue中的性能优化
   14  Vue中路由懒加载
  15   v-once的运用  静态文件不会重新渲染
+Webpack的前端性能优化：
+   1.压缩代码 JS，CSS，
+    2.利用CDN加速，将引用的静态资源改为CDN上对应的路径，可以利用webpak对于output参数来修改资源路径
+   3.删除死代码（tree shaking），CSS需要purify-CSS
+   4.提取公共代码
 
 
