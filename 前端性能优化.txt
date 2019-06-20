@@ -11,13 +11,18 @@
    11：减少DOM元素数量
    12：不要404
    13：不要 在HTML中缩放图片
+1：页面级优化
+   1.减少HTTP请求数，合理设置HTTP缓存，资源合并与压缩，lazy-Load-Image,异步执行，异步请求，css放入head中，
+     避免重复的资源请求
+2：代码级优化
+   1.减少DOM操作，减少作用域链查找
 
-Vue中的性能优化
+2：Vue中的性能优化
   14  Vue中路由懒加载
  15   v-once的运用  静态文件不会重新渲染
-Webpack的前端性能优化：
+3：Webpack的前端性能优化：
    1.压缩代码 JS，CSS，
-    2.利用CDN加速，将引用的静态资源改为CDN上对应的路径，可以利用webpak对于output参数来修改资源路径
+   2.利用CDN加速，将引用的静态资源改为CDN上对应的路径，可以利用webpak对于output参数来修改资源路径
    3.删除死代码（tree shaking），CSS需要purify-CSS
    4.提取公共代码
 
