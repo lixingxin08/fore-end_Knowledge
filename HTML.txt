@@ -1,4 +1,4 @@
-HTML5新特性{
+  HTML5新特性{
                        1语义化标签:   {
 	              header  nav section aside article
 	    }
@@ -28,4 +28,5 @@ HTML5新特性{
 		let ws= new WebSoket("http://xxxx")  ws.onopen=()=>{ws.send(发送数据)}   ws.onmessage=(rsp)=>{let data=rsp.data}
 		ws.onclose=()=>{}
 	       }
-                }  nginx服务端性能优化
+                } 
+    nginx服务端性能优化

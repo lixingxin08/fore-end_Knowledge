@@ -1,4 +1,8 @@
   一： {
+	  JS 的组成： BOM DOM ECMAscript
+			BOM:描述了与浏览器进行交互的方法与接口 ，window是BOM的顶层对象
+			DOM：描述了处理网页内容的方法与接口
+			ECMAscript：JS是基于ECMAscript标准实现的。
 	1：js内置对象：{   String Number  Array    Boolean  Object  Function   Date  Math  RegExg Error  Argument			}
                  2:JS事件  ：{onabort  onblur  onchange  onclick  ondblclick   onerror  onfocus  onkeydown  onkeyup  onload onmousedown 
                                       onmousemove onmouseout  onmouseover  onmouseup  onreset  onresize  onselect  onsubmit  onunload}
